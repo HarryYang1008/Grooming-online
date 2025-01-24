@@ -58,7 +58,7 @@ const PopularProducts = () => {
 
   return (
     <div className="popular-products">
-      <h2>Popular Items with Gromming®.</h2>
+      <h2>Popular Items with groomed.®.</h2>
       <div className="carousel">
         <button className="arrow left-arrow" onClick={handlePrev}>
           &#8249;
@@ -67,7 +67,7 @@ const PopularProducts = () => {
           <div
             className="products"
             style={{
-              transform: `translateX(-${currentIndex * 50}%)`,
+              transform: `translateX(-${currentIndex * 100}%)`,
             }}
           >
             {products.map((product) => (

@@ -1,17 +1,10 @@
 import React,{Component} from "react";
 import "./style.css";
-import Slider from './Slider';
+
 import PopularProducts from './Elements/popularproduct.jsx'
-import SentimentAnalysis from "./language_analysis.js";
-import greenHeart from './green_heart.png';
-import usericon from './icon.png';
-import dashboard_icon from './dashboard_icon.png';
-import user_dash from './user_dash.png';
-import heart_dash from './heart_dash.png';  
-import dash3 from './dash3.jpg';
-import dash4 from './dash4.jpg';
-import dash5 from './dash5.jpg';
-import plan1 from './plan1.png';
+import Footer from './Elements/Footer.jsx'
+import GroinKitsPage from './Elements/GroinKitsPage.jsx'
+
 class MapComponent extends Component {
 
   ///////// The popular product part with session control ///////////////////////////////
@@ -19,14 +12,18 @@ class MapComponent extends Component {
   
   
  ////////////////////// PAGE Show //////////////
+ showmainpage = () => {
+  const landing_page= document.getElementById('main-container');
+  landing_page.style.display = 'block';
+  const sign_in_page = document.getElementById('GroinKitsPage-container');
+  sign_in_page.style.display = 'none';
+}
 
-  showSignInpage = () => {
-    const landing_page= document.getElementById('landing_page');
+  showshoppingpage = () => {
+    const landing_page= document.getElementById('main-container');
     landing_page.style.display = 'none';
-    const sign_in_page = document.getElementById('sign_in_page');
+    const sign_in_page = document.getElementById('GroinKitsPage-container');
     sign_in_page.style.display = 'block';
-    const main_page= document.getElementById('mental-main');
-    main_page.style.display = 'none';
   }
   
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -38,7 +35,7 @@ class MapComponent extends Component {
       <div>
         {/* 固定顶部横幅 */}
         <header className="top-banner">
-          <div className="logo">Gromming</div>
+          <button className="logo" href="#" onClick={this.showmainpage}>groomed.</button>
           <nav>
             <ul className="menu">
               <li>
@@ -54,7 +51,7 @@ class MapComponent extends Component {
                 <a href="#">Head & Body</a>
               </li>
               <li>
-                <a href="#">Shop All</a>
+                <a href="#" onClick={this.showshoppingpage}>Shop All</a>
               </li>
             </ul>
           </nav>
@@ -66,31 +63,40 @@ class MapComponent extends Component {
               <option value="es">ES</option>
               <option value="fr">FR</option>
             </select>
-            <a href="#" className="profile-icon">
-              👤
-            </a>
             <a href="#" className="cart-icon">
               🛒
             </a>
+            <a href="#" className="profile-icon">
+              👤
+            </a>
+            
           </div>
         </header>
 
-        <main>
-          {/* 英雄部分，背景图片 */}
-          <section className="hero">
-            <div className="overlay">
-              <div className="hero-text">
-                <h1>This is our Slogan or New released product</h1>
-                <p>
-                  Stay with <span className="brand">Gromming®</span>.
-                </p>
-                <button className="shop-now">Shop Now</button>
+        <div id ="main-container">
+          <main>
+            {/* 英雄部分，背景图片 */}
+            <section className="hero">
+              <div className="overlay">
+                <div className="hero-text">
+                  <h1>groomed for men</h1>
+                  <p>
+                    Stay with <span className="brand">groomed.®</span>.
+                  </p>
+                  <button className="shop-now">Shop Now</button>
+                </div>
               </div>
-            </div>
-          </section>
-        </main>
+            </section>
+          </main>
+          
+          <PopularProducts />
+        </div>
 
-        <PopularProducts />
+        <div id = "GroinKitsPage-container" >
+          <GroinKitsPage />
+        </div>
+
+        <Footer/>
       </div>
     );
   }

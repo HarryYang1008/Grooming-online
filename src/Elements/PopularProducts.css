@@ -1,7 +1,6 @@
 .popular-products {
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
+    background-color: #000000;
   }
   
   .popular-products h2 {
@@ -35,17 +34,19 @@
   }
   
   .products-container {
+
     overflow: hidden;
-    width: 100%;
+    width: 48%;
   }
   
   .products {
+    width: 20%;
     display: flex;
     transition: transform 0.5s ease-in-out;
   }
   
   .product {
-    flex: 0 0 50%; /* 每次显示两个产品 */
+    flex: 0 0 24%; /* 每次显示两个产品 */
     margin: 0 10px;
     text-align: left;
     border: 1px solid #ddd;
@@ -116,5 +117,16 @@
   
   .right-arrow {
     right: 10px;
+  }
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    color: #b89d66;
   }
   
