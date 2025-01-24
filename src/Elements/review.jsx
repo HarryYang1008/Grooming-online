@@ -23,27 +23,7 @@ const reviews = [
     content:
       "I've tried other products in the past but nothing beats manscaped. It's actually products that help you entirely. Not just physically but in return you get peace of mind knowing everything is natural, safe, and best of all easy to use. I'm a manscaped customer for life. You should give it a try and enjoy all the benefits it has to offer.",
   },
-  {
-    name: "Mark P.",
-    role: "Verified Buyer",
-    title: "Amazing",
-    content:
-      "Everything was so awesome best trimmer I've ever had the little headlight I thought was a joke but in reality it was so helpful to see what I was doing, the waterproof design of the tool make it so easy to use in the shower, and the wireless charger makes it super easy to just grab and go without messing with wires.",
-  },
-  {
-    name: "Travis R.",
-    role: "Verified Buyer",
-    title: "Great Products for the Jewels",
-    content:
-      "I absolutely love the balls scrub and the ball shave gel. They work perfectly and leave you smelling really good. The ball scrub leaves the jewels so soft and smooth.",
-  },
-  {
-    name: "John B.",
-    role: "Verified Buyer",
-    title: "All the funny reviews are real",
-    content:
-      "Look, I thought for sure that all these funny reviews about how it gets you smooth as a pool ball or whatever were jokes and that this couldn’t be accurate. I was wrong, I’ve literally become obsessed with shaving because this makes it so easy and comfortable.",
-  },
+ 
 ];
 
 const Reviews = () => {
