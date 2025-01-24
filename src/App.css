@@ -66,10 +66,11 @@ nav .menu li a:hover {
   cursor: pointer;
 }
 
-/* 购物车图标的包裹样式 */
+/* 购物车图标的包裹样式sdsds */
 .cart-icon-wrapper {
   position: relative;
 }
+
 
 .cart-icon-wrapper:hover::after {
   content: "Shopping Cart";
