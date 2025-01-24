@@ -6,7 +6,8 @@ const reviews = [
     name: "Bradley N.",
     role: "Verified Buyer",
     title: "Good for your balls!",
-    content:
+        content:
+        
       "I bought the manscape package for my fiancé for his birthday and he's so in love lol! He has not had any ingrown hairs or razor bumps and he really appreciates this gift and how delicate it is. He told me he's never had such a close shave down there because balls are sensitive. I'm so happy for him with this purchase!",
   },
   {
