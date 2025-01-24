@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/groomedOnline/static/css/main.2883eeca.css",
+    "main.js": "/groomedOnline/static/js/main.1fe68025.js",
+    "static/js/787.4bbbca62.chunk.js": "/groomedOnline/static/js/787.4bbbca62.chunk.js",
+    "static/media/dash2.jpg": "/groomedOnline/static/media/dash2.3ce43e1e07531d8f4ab2.jpg",
+    "static/media/logo.svg": "/groomedOnline/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/groomedOnline/index.html",
+    "main.2883eeca.css.map": "/groomedOnline/static/css/main.2883eeca.css.map",
+    "main.1fe68025.js.map": "/groomedOnline/static/js/main.1fe68025.js.map",
+    "787.4bbbca62.chunk.js.map": "/groomedOnline/static/js/787.4bbbca62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2883eeca.css",
+    "static/js/main.1fe68025.js"
+  ]
+}
