@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Grooming-online/static/css/main.153541bb.css",
-    "main.js": "/Grooming-online/static/js/main.7f62098b.js",
+    "main.js": "/Grooming-online/static/js/main.71be9cb6.js",
     "static/js/787.4bbbca62.chunk.js": "/Grooming-online/static/js/787.4bbbca62.chunk.js",
     "static/media/dash2.jpg": "/Grooming-online/static/media/dash2.3ce43e1e07531d8f4ab2.jpg",
     "static/media/logo.svg": "/Grooming-online/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Grooming-online/index.html",
     "main.153541bb.css.map": "/Grooming-online/static/css/main.153541bb.css.map",
-    "main.7f62098b.js.map": "/Grooming-online/static/js/main.7f62098b.js.map",
+    "main.71be9cb6.js.map": "/Grooming-online/static/js/main.71be9cb6.js.map",
     "787.4bbbca62.chunk.js.map": "/Grooming-online/static/js/787.4bbbca62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.153541bb.css",
-    "static/js/main.7f62098b.js"
+    "static/js/main.71be9cb6.js"
   ]
 }
