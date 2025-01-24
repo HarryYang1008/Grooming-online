@@ -67,7 +67,7 @@ const PopularProducts = () => {
           <div
             className="products"
             style={{
-              transform: `translateX(-${currentIndex * 100}%)`,
+              transform: `translateX(-${currentIndex * 200}%)`,
             }}
           >
             {products.map((product) => (

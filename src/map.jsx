@@ -1,6 +1,7 @@
 import React,{Component} from "react";
 import "./style.css";
 
+import Reviews from "./Elements/review";
 import PopularProducts from './Elements/popularproduct.jsx'
 import Footer from './Elements/Footer.jsx'
 import GroinKitsPage from './Elements/GroinKitsPage.jsx'
@@ -90,6 +91,8 @@ class MapComponent extends Component {
           </main>
           
           <PopularProducts />
+          <Reviews />
+          
         </div>
 
         <div id = "GroinKitsPage-container" >
