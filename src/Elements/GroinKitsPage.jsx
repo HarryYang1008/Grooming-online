@@ -43,6 +43,47 @@ const GroinKitsPage = () => {
       discountPrice: "$34.99 + Peak Hygiene Plan",
       image: product4,
     },
+    {
+      id: 5,
+      title: "Ultra Smooth Package",
+      description: "Shaving Care for Down There",
+      price: "$39.99",
+      discountPrice: "$34.99 + Peak Hygiene Plan",
+      image: product4,
+    },
+    {
+      id: 6,
+      title: "Ultra Smooth Package",
+      description: "Shaving Care for Down There",
+      price: "$39.99",
+      discountPrice: "$34.99 + Peak Hygiene Plan",
+      image: product4,
+    },
+    {
+      id: 7,
+      title: "Ultra Smooth Package",
+      description: "Shaving Care for Down There",
+      price: "$39.99",
+      discountPrice: "$34.99 + Peak Hygiene Plan",
+      image: product4,
+    },
+    {
+      id: 8,
+      title: "Ultra Smooth Package",
+      description: "Shaving Care for Down There",
+      price: "$39.99",
+      discountPrice: "$34.99 + Peak Hygiene Plan",
+      image: product4,
+    },
+    {
+      id: 9,
+      title: "Ultra Smooth Package",
+      description: "Shaving Care for Down There",
+      price: "$39.99",
+      discountPrice: "$34.99 + Peak Hygiene Plan",
+      image: product4,
+    },
+
   ];
 
   return (

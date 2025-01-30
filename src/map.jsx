@@ -76,7 +76,7 @@ class MapComponent extends Component {
 
         <div id ="main-container">
           <main>
-            {/* 英雄部分，背景图片 */}
+            {/* background picture of main page part */}
             <section className="hero">
               <div className="overlay">
                 <div className="hero-text">
